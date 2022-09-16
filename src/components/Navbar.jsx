@@ -59,7 +59,7 @@ export default function Navbar() {
             cursor-pointer 
             text-[16px] 
             ${index === navLinks.length - 1 ? "mr-0" : "mb-2"} 
-            text-white`}
+            text-white `}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
